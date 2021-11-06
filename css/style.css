@@ -1,0 +1,394 @@
+/* @media only screen and (max-width: 812px){ */
+
+header{
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    background-color: #FDE8FC;
+    border-bottom: 4px solid pink;
+    /* padding: 10px; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.nav_links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+.nav_links a {
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+
+h2 h3{
+    font-family: 'Raleway', sans-serif;
+}
+
+.current{
+    font-weight: bold;
+    font-size: 21px;
+    color:black;
+}
+
+.not-current{
+    font-size: 17px;
+    /* color:darkgray; */
+    /* color:black; */
+    color: #616161;
+    text-decoration: none;
+}
+
+.about-container{
+    display: grid;
+    grid-template-rows: 5;
+    grid-template-columns: 1;
+    grid-row-gap: 10px;
+    padding-top: 10px;
+}
+
+.about-intro{
+    padding: 15px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 1;
+    font-size: 25px;
+}
+
+.about-image{
+    grid-row: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.about-text{ 
+    text-align: center;
+    grid-row: 3;
+    /* font-size: 15px; */
+    font-family: 'Raleway', serif;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+.dogs-pic{
+    grid-row: 4;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.about-paragraph{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 5;
+    font-size: 17px;
+    /* font-size: 20px; */
+    /* position: relative; */
+}
+
+.ollie-container{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 7;
+    grid-row-gap: 10px;
+    padding-top: 10px;
+}
+
+.ollie-intro{
+    padding: 15px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 1;
+    font-size: 25px;
+}
+
+.ollie-at-beach{
+    grid-row: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ollie-text1{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 3;
+    font-size: 17px;
+}
+
+.ollie-camera-shy{
+    grid-row: 4;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ollie-text2{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 5;
+    font-size: 17px;
+}
+
+.ollie-michigan{
+    grid-row: 6;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ollie-text3{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 7;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.winnie-container{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 7;
+    grid-row-gap: 10px;
+    padding-top: 10px;
+}
+
+.winnie-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 1;
+    font-size: 25px;
+}
+
+.winnie-snow{
+    grid-row: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.winnie-text1{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 3;
+    font-size: 17px;
+}
+
+.winnie-outside{
+    grid-row: 4;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.winnie-text2{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 5;
+    font-size: 17px;
+}
+
+.winnie-guilty{
+    grid-row: 6;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.winnie-text3{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 7;
+    font-size: 17px;
+}
+
+/* .about-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 1;
+} */
+
+.insta-container{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 7;
+    grid-row-gap: 10px;
+    padding-top: 10px;
+}
+
+.insta-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 1;
+    font-size: 25px;
+}
+
+.insta-intro p{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 1;
+    font-size: 17px;
+}
+
+.insta-profile{
+    grid-row: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.insta-text1{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 3;
+    font-size: 17px;
+}
+
+.insta-pumpkin{
+    grid-row:4;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.insta-text2{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 5;
+    font-size: 17px;
+}
+
+.noodle{
+    grid-row: 6;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.insta-text3{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 7;
+    font-size: 17px;
+}
+
+.gallery-container{
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: 10;
+    grid-row-gap: 10px;
+    padding-top: 10px;
+}
+
+.gallery-intro{
+    padding: 10px;
+    font-family: 'Raleway';
+    text-align: center;
+    grid-row: 1;
+    font-size: 25px;
+}
+
+.pic1{
+    grid-row: 2;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic2{
+    grid-row: 3;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic3{
+    grid-row: 4;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic4{
+    grid-row: 5;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic5{
+    grid-row: 6;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic6{
+    grid-row: 7;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic7{
+    grid-row: 8;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic8{
+    grid-row: 9;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.pic9{
+    grid-row: 10;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 10px;
+}
+
+footer{
+    border-top: 4px solid pink;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-color: #FDE8FC;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    }
+       
+/* } */
